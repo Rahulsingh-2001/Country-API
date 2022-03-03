@@ -30,7 +30,7 @@ function fetchApi(word){
     fetch(url).then(res=>res.json()).then(result=>data(result,word));
 }
 
-sel.addEventListener('click',()=>{
+sel.addEventListener('change',()=>{
     let word=sel.value;
    fetchApi(word);
 });
