@@ -21,7 +21,7 @@
 
 .container{
     position: relative;
-    top: 50px;
+    top: 30vh;
     height: 70vh;
     width: 40%;
     display: flex;
