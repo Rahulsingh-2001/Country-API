@@ -8,6 +8,9 @@ const currency=document.querySelector('.currency');
 const continental=document.querySelector('.continental');
 const population=document.querySelector('.population');
 const container=document.querySelector('.container');
+const sele=document.querySelector('.sel');
+
+
 function data(result,word){
     console.log(word);
     console.log(result);
@@ -21,6 +24,7 @@ function data(result,word){
     population.innerHTML=`Population: ${result[0].population}`;
     continental.innerHTML=`Continental: ${result[0].continents[0]}`;
    container.classList.remove("hide");
+    sele.classList.add("hide");
 
 
 }
