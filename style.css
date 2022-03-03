@@ -16,7 +16,7 @@ flex-direction: column;
 }
 .search{
     color: white;
-    padding: 5px;
+   width:100%;
 }
 .fl{
     display: flex;
