@@ -21,8 +21,8 @@
 
 .container{
     position: relative;
-    top: 30vh;
-    height: 70vh;
+    top: 80px;
+    height:70vh;
     width: 40%;
     display: flex;
     justify-content: center;
