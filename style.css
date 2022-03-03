@@ -20,8 +20,7 @@
 }
 
 .container{
-    position: relative;
-    top: 50vh;
+    
     height:70vh;
     width: 40%;
     display: flex;
@@ -81,24 +80,3 @@
         width: 90%;
     }
 }
-/* 
-@media only screen and (max-width:490px){
-    .container{
-        width: 100%;
-        top:50vh;
-        padding: 10px;
-    }
-    .flag{
-        padding: 5px;
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width:440px){
-    .container{
-        width: 100%;
-    }
-    .flag{
-        padding: 1px;
-    }
-} */
