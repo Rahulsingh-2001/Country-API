@@ -45,6 +45,7 @@
     justify-content: space-between;
     padding: 10px;
 }
+.capital{padding-right: 10px;}
 .hide{
     display: none;
 }
