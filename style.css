@@ -21,7 +21,7 @@
 
 .container{
     position: relative;
-    top: 80px;
+    top: 50vh;
     height:70vh;
     width: 40%;
     display: flex;
@@ -85,7 +85,7 @@
 @media only screen and (max-width:490px){
     .container{
         width: 100%;
-        top:50px;
+        top:50vh;
         padding: 10px;
     }
     .flag{
